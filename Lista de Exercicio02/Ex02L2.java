@@ -4,7 +4,7 @@ public class Ex02L2{
 
     public static void main(String[] args){
 
-        int numero = Integer.parseInt(JOptionPane.showInputDialog("Digite Um Número: "));
+        int numero = Integer.parseInt(JOptionPane.showInputDialog("Digite Um 1Número: "));
         if (numero <0){
             JOptionPane.showMessageDialog(null, numero + " É Negativo.");
         }else{
